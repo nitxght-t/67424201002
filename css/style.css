@@ -11,9 +11,11 @@
     margin: auto;
 }
 .back {
-    background-image: url(/webkoko/img/S__8724483.jpg);
+    background-image: url("../img/S__8724483.jpg");
     background-position: center 20%;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 /* Header styling */
@@ -587,4 +589,5 @@ body {
 .drive-btn:hover {
     background: linear-gradient(45deg, #ff2e63, #ff4d6d);
     transform: scale(1.1);
+
 }
